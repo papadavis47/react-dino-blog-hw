@@ -88,7 +88,7 @@ class Content extends Component {
     }
   }
 
-  function App() {
+  function Post() {
       return (
           <div>
               <Header header={elems.header} author={elems.author} />
@@ -98,4 +98,4 @@ class Content extends Component {
       )
   }
 
-  export default App;
+  export default Post;
